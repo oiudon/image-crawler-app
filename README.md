@@ -4,7 +4,7 @@
 <h2>起動方法</h2>
 <ol>
   <li>「ImageCrawlerApp.zip」を展開する。</li>
-  <li>展開した「dist」フォルダ内の「ImageCrawlerApp.exe」をダブルクリックで起動する。</li>
+  <li>「dist」フォルダ内の「ImageCrawlerApp.exe」をダブルクリックで起動する。</li>
 </ol>
 <h2>使用方法</h2>
 <ol>
