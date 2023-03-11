@@ -1,5 +1,6 @@
 import PySimpleGUI as sg
 from icrawler.builtin import BingImageCrawler
+import os
 
 # テーマの選択
 sg.theme("DarkBlue12")
@@ -37,6 +38,11 @@ def execute():
         savepath
     except NameError:
         win["txt2"].update("*保存先フォルダを選択してください")
+        return
+    
+    # 保存先フォルダが存在するか確認
+    if not os.path.isdir(savepath):
+        win["txt2"].update("*保存先フォルダが存在しません")
         return
 
     # 検索ワードの入力確認
