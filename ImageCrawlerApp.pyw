@@ -16,7 +16,6 @@ win = sg.Window("検索画像収集アプリ", layout,
 
 # 保存先フォルダ選択部分の作成
 def loadFolder():
-    global loadname
     global savepath
     # 保存先フォルダの読み込み
     loadname = sg.popup_get_folder("保存先フォルダを選択してください。")
