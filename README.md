@@ -1,4 +1,5 @@
 <h1>検索画像収集アプリ</h1>
+<img src="https://raw.githubusercontent.com/oiudon/image-crawler-app/main/ImageCrawlerApp.jpg">
 <h2>概要</h2>
 <p>画像データをWEB上から収集し保存するPySimpleGUIで作成したデスクトップアプリです。<br>画像データセットの作成に役立ちます。</p>
 <h2>起動方法</h2>
